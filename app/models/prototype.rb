@@ -1,5 +1,12 @@
 class Prototype < ApplicationRecord
-  validates :prototypes, precence: true
   belongs_to :user
 
+  has_one_attached :image
+
+  validates :prototypes, precence: true
+
+  validates :title,presence: true
+  validates :catch_copy,presence: true
+  validates :concept,presence: true
+  validates :image,presence: true
 end
