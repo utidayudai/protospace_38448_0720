@@ -6,7 +6,7 @@ class CommentsController < ApplicationController
     else
       @prototype = @comment.purototype
       @comments = @purototype.comments
-      render "prototypes/show"
+      render :show
     end
   end
 
