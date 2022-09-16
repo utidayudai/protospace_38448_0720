@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< Updated upstream
 ActiveRecord::Schema.define(version: 2022_09_15_114744) do
 
   create_table "active_storage_attachments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -73,4 +74,8 @@ ActiveRecord::Schema.define(version: 2022_09_15_114744) do
   add_foreign_key "comments", "prototypes"
   add_foreign_key "comments", "users"
   add_foreign_key "prototypes", "users"
+=======
+ActiveRecord::Schema.define(version: 0) do
+
+>>>>>>> Stashed changes
 end
