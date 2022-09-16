@@ -44,6 +44,7 @@
 | ----------- | -------------- | ------------------------------------ |
 | content     | text           | null: false                          |
 | prototype   | references     | null: false, foreign_key: true       |
+| user        | references     | null: false, foreign_key: true       |
 
 
 ### Association
